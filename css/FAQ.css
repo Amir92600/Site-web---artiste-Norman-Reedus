@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Young serif', serif;
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav h1 {
+    color: #717171;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: white;
+    margin-right: 100px;
+    border-bottom: 0px solid #000;
+    padding-bottom: 15px;
+}
+
+nav .onglets a:hover {
+    color: #b8bcbe; /* Couleur du texte au survol */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('Accueil.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 60px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+    max-width: 2000px; /* Ajoutez une largeur maximale pour le contenu */
+    margin: 0 auto; /* Centre le contenu horizontalement */
+    padding: 20px; /* Ajoutez un espace sur les côtés du contenu */
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.question h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.question p {
+    font-size: 16px;
+    text-align: justify;
+}
+
+.question label {
+    cursor: pointer;
+    font-size: 24px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles pour la réponse */
+.answer {
+    display: none;
+    font-size: 16px;
+}
+
+/* Styles pour le bouton radio et la couleur de sélection */
+input[type="radio"] {
+    display: none; /* Cache le bouton radio par défaut */
+}
+
+input[type="radio"] + label {
+    background-color: #333; /* Couleur de fond du bouton radio */
+    padding: 10px;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #666; /* Couleur de fond du bouton radio sélectionné */
+}
+
+/* Affiche la réponse lorsqu'une case est cochée */
+input:checked + label + .answer {
+    display: block;
+}
+
+a {
+    color: #fff; /* Couleur du texte du lien */
+    text-decoration: none; /* Supprime la décoration du lien (soulignement) */
+}
+
+a:hover {
+    color: #ccc; /* Couleur du texte du lien au survol */
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #2e2a2a;
+    color: #fff;
+    padding: 30px 100px;
+}
+
+footer h1 {
+    font-family: 'Open sans', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .services {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .services .service {
+    margin-right: 30px;
+}
+
+footer .services .service p {
+    max-width: 300px;
+}
+
+footer #contact {
+    color: rgb(181, 181, 181);
+}
+
+footer a {
+    color: inherit; /* Utilise la couleur par défaut du texte */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+footer a:hover {
+    color: inherit; /* Utilise la couleur par défaut du texte au survol */
+}

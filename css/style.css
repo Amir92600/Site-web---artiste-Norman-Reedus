@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Young serif', serif;
+}
+
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav h1{
+    color: #717171;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+nav .onglets{
+    margin-top: 3px;
+    margin-left: 300px;
+}
+
+nav .onglets a{
+    text-decoration: none;
+    color: white;
+    margin-right: 100px;
+    border-bottom: 0px solid #000;
+    padding-bottom: 15px;
+}
+
+nav .onglets a:hover {
+    color: #b8bcbe; /* Couleur du texte au survol */
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('Accueil.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 60px;
+}
+
+header h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+header h4{
+    margin-top: -20px;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 0px solid black;
+}
+
+header button{
+    padding: 10px 20px;
+    background-color: #fff;
+    color:#000;
+    border:none;
+    margin-bottom: 30px;
+    outline:none;
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: #dfdfdf; /* Nouvelle couleur de fond au survol */
+    color: #000; /* Nouvelle couleur du texte au survol */
+    text-decoration: none;
+}
+
+.main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+}
+.main .content .card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px;
+    background-color:black;
+}
+.main .content .card .left{
+   flex: 0 0 30%;
+   padding: 20px;
+   background-color:#000;
+   color:#fff;
+}
+.main .content .card .right img{
+    height:300px;
+    width: 400px;
+    margin-top: 5px;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: #2e2a2a;
+    color: #fff;
+    padding: 30px 100px;
+}
+footer h1{
+    font-family: 'Open sans', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+footer .services{
+    margin-top: -10px;
+    display:flex;
+    flex-wrap:wrap;
+}
+footer .services .service{
+    margin-right: 30px;
+}
+footer .services .service p{
+    max-width: 300px;
+}
+footer #contact{
+    color: rgb(181, 181, 181);
+}
+
+footer a {
+    color: inherit; /* Utilise la couleur par défaut du texte (noir) */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+footer a:hover {
+    color: inherit; /* Utilise la couleur par défaut du texte (noir) au survol */
+}
+
+@media screen and (max-width:680px){
+    nav .onglets {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .main .card {
+        margin: 10px;
+    }
+    .main .content .card .right img{
+        height:200px;
+        width: 100%;
+        margin-top: -0px;
+    }
+    .main .content .card{
+        display: block;
+    }
+    footer{
+        padding: 30px;
+    }
+}
+
+/* Ajout supplémentaire des styles à la fin du fichier style.css */
+
+button {
+    background: none;
+    border: none;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    cursor: pointer;
+    color: inherit;
+}
+
+button:hover {
+    text-decoration: none; /* Supprime le soulignement au survol */
+}
+

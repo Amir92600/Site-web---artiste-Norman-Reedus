@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Young serif', serif;
+    background-color: #000;
+    color: #fff;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+nav h1 {
+    color: #717171;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+nav .onglets a {
+    text-decoration: none;
+    color: white;
+    margin-right: 100px;
+    border-bottom: 0px solid #000;
+    padding-bottom: 15px;
+}
+
+nav .onglets a:hover {
+    color: #b8bcbe; /* Couleur du texte au survol */
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url('contact\ 3.webp');
+    background-size: cover;
+    color: #fff;
+    padding: 60px;
+}
+
+header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+}
+
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #000;
+}
+
+.contact-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contact-section button {
+    padding: 10px 20px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-family:'Playfair Display', serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-section button a {
+    text-decoration: none;
+    color: #000;
+}
+
+.contact-section button:hover {
+    background-color: #ccc;
+}
+
+.contact-section img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #2e2a2a;
+    color: #fff;
+    padding: 30px 100px;
+}
+
+footer h1 {
+    font-family: 'Open sans', serif;
+    border-bottom: 1px solid white;
+    width: 20%;
+    padding-bottom: 5px;
+}
+
+footer .services {
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer .services .service {
+    margin-right: 30px;
+}
+
+footer .services .service p {
+    max-width: 300px;
+}
+
+footer #contact {
+    color: rgb(181, 181, 181);
+}
+
+footer a {
+    color: inherit; /* Utilise la couleur par défaut du texte */
+    text-decoration: none; /* Supprime le soulignement par défaut */
+}
+
+footer a:hover {
+    color: inherit; /* Utilise la couleur par défaut du texte au survol */
+}

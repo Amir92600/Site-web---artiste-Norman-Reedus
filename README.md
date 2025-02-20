@@ -2,6 +2,10 @@
 
 # Lisez-moi
 
+#### Clip de présentation
+https://github.com/user-attachments/assets/e2f2d21d-f146-4b44-9c17-8c96c90bc35f
+
+
 
 ### Zoning
 
